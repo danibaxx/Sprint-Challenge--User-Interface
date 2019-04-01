@@ -188,6 +188,22 @@ img.img1 {
     padding-right: 0;
 }
 
+/* about.html css mark-up */
+
+.about-container {
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.mid-content {
+    display:flex;
+}
+
+.mid-content .mid {
+    padding: 20px 15px;
+    width: 400px;
+}
+
 footer {
     width: 100%;
     background: black;
