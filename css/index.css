@@ -191,17 +191,50 @@ img.img1 {
 /* about.html css mark-up */
 
 .about-container {
-    padding: 20px 0;
+    padding-top: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 30px;
 }
 
 .mid-content {
     display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .mid-content .mid {
-    padding: 20px 15px;
-    width: 400px;
+    padding: 40px 15px 20px 15px;
+    width: 375px;
+}
+
+.mid {
+    border-bottom: 1px dashed black;
+}
+img.st1 {
+    padding-top: 10px;
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+p.p-mid {
+    padding-bottom: 20px;
+}
+
+button {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    width: 122px;
+    height: 38px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.bottom-container {
+    margin: 40px 0 40px 5px;
 }
 
 footer {
