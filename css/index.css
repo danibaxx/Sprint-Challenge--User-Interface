@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+/* Nav Mark-up */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: flex-end;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* img mark-up */
+
+img.img1 {
+    padding-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +133,7 @@ p {
     justify-content: center;
 }
 
+/* box colors for all 10 boxes */
 .boxes .box1 {
     background: teal;
 }
