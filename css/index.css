@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+/* Nav Mark-up */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: flex-end;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* img mark-up */
+
+img.img1 {
+    padding-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +125,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* box colors for all 10 boxes */
+.boxes .box1 {
+    background: teal;
+}
+
+.boxes .box2 {
+    background: gold;
+}
+
+.boxes .box3 {
+    background: cadetblue;
+}
+
+.boxes .box4 {
+    background: coral;
+}
+
+.boxes .box5 {
+    background: crimson;
+}
+
+.boxes .box6 {
+    background: forestgreen;
+}
+
+.boxes .box7 {
+    background: darkorchid;
+}
+
+.boxes .box8 {
+    background: hotpink;
+}
+
+.boxes .box9 {
+    background: indigo;
+}
+
+.boxes .box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +186,55 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* about.html css mark-up */
+
+.about-container {
+    padding-top: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+
+.mid-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mid-content .mid {
+    padding: 40px 15px 20px 15px;
+    width: 375px;
+}
+
+.mid {
+    border-bottom: 1px dashed black;
+}
+img.st1 {
+    padding-top: 10px;
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+p.p-mid {
+    padding-bottom: 20px;
+}
+
+button {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    width: 122px;
+    height: 38px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.bottom-container {
+    margin: 40px 0 40px 5px;
 }
 
 footer {
